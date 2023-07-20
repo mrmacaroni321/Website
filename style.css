@@ -1,0 +1,31 @@
+* {
+    font-family: sans-serif;
+    margin: auto;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body {
+
+}
+
+/*
+Navbar
+*/
+.Navbar {
+    padding: 13px;
+    background-color: #333;
+    overflow: hidden;
+  }
+
+.Link {
+    text-align: left;
+    margin: 0px 0px 0px 20px;
+    color: white;
+    transition: background-color 1s;
+}
+
+.Link:hover {
+    color: bisque;
+}
+  
