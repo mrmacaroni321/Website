@@ -3,6 +3,7 @@
     margin: auto;
     padding: 0px;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -13,9 +14,11 @@ body {
 Navbar
 */
 .Navbar {
-    padding: 13px;
+    padding: 15px;
     background-color: #333;
     overflow: hidden;
+    position: fixed;
+    width: 100%;
   }
 
 .Link {
@@ -28,4 +31,10 @@ Navbar
 .Link:hover {
     color: bisque;
 }
+
+#Home {
+    text-align: center;
+    padding: 75px;
+}
+
   
