@@ -43,9 +43,11 @@ Navbar
 }
 
 h2 {
-    margin: 80% 0px 0px 15px;
+    text-align: center;
+    margin: 80% 30px 30px 30px;
     padding: 3px;
     color: #7289da;
+    margin-bottom: 20%;
 }
 
 @media screen and (max-width: 450px) and (max-height: 950px) {
