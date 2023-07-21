@@ -4,6 +4,7 @@
     padding: 0px;
     text-decoration: none;
     scroll-behavior: smooth;
+    background-color: #1e2124;
 }
 
 body {
@@ -15,26 +16,47 @@ Navbar
 */
 .Navbar {
     padding: 15px;
-    background-color: #333;
+    background-color: #22252a;
     overflow: hidden;
     position: fixed;
     width: 100%;
   }
 
 .Link {
+    background-color: #22252a;
     text-align: left;
     margin: 0px 0px 0px 20px;
-    color: white;
+    color: #7289da;
     transition: background-color 1s;
 }
 
 .Link:hover {
-    color: bisque;
+    color: #4e5e9a;
 }
 
 #Home {
+    color: #7289da;
     text-align: center;
     padding: 75px;
+    text-justify: center;
+    padding-top: 25%;
 }
 
+h2 {
+    margin: 80% 0px 0px 15px;
+    padding: 3px;
+    color: #7289da;
+}
+
+@media screen and (max-width: 450px) and (max-height: 950px) {
+    #Home {
+        font-size: 50px;
+        padding-top: 70%;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-top: 150%;
+    }
+}
   
