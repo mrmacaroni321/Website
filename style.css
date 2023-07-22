@@ -66,3 +66,10 @@ h2 {
     }
 }
   
+
+.Footer {
+    text-align: center;
+    color: #a2add6;
+    padding: 6px;
+    background-color: #1c1e21;
+}
