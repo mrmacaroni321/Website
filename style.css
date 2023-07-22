@@ -7,10 +7,6 @@
     background-color: #1e2124;
 }
 
-body {
-
-}
-
 /*
 Navbar
 */
@@ -38,7 +34,6 @@ Navbar
     color: #7289da;
     text-align: center;
     padding: 75px;
-    text-justify: center;
     padding-top: 25%;
 }
 
@@ -50,6 +45,7 @@ h2 {
     margin-bottom: 20%;
 }
 
+
 @media screen and (max-width: 450px) and (max-height: 950px) {
     #Home {
         font-size: 50px;
@@ -59,6 +55,14 @@ h2 {
     h2 {
         font-size: 30px;
         margin-top: 150%;
+    }
+}
+
+
+
+@media screen and (max-width: 425px) and (max-height: 750px){
+    #Home {
+        padding-top: 80%;
     }
 }
   
